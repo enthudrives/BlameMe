@@ -12,6 +12,11 @@ class AskGit
 		response = http.request(request)
 		JSON.parse(response.body)
 	end
+
+	def self.name login
+		user_json = response_json "https://api.github.com/users/#{login}"
+		user_json["name"]
+	end
 end
 
 class BlameMe
