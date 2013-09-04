@@ -1,7 +1,7 @@
 BlameMe
 =======
 
-This is a simple gem to get the list of contributors for any github repository
+This is a simple gem to get the list of contributors for any github repository. Doesn't require authentication.
 
 Usage:
 ======
