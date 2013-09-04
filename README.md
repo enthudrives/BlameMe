@@ -1,7 +1,7 @@
 BlameMe
 =======
 
-This is a simple script to get the list of contributors for your repository
+This is a simple gem to get the list of contributors for your repository
 
 Usage:
 ======
